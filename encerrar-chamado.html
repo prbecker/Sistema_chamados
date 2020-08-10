@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>STINFRA</title>
+        <meta charset="utf-8">
+        <meta name="generator" content="Brackets">
+        <meta name="description" content="STINFRA">
+        <meta name="application-name" content="SCS STINFRA">
+        <meta http-equiv="refresh" content="300">
+        
+        <link href="css/bootstrap.min.css" rel="stylesheet">        
+        <link rel="stylesheet" type="text/css" href="css/index.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="css/mainenduser.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="css/novo-incidente.css" media="screen">
+    </head>
+    <body>
+        <main>
+            <nav class="navbar navbar-expand-md navbar-custom">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/stinfra-logo.png" alt="">
+                </a>
+                <a class="btn btn-success ml-auto mr-1" href="pesquisa.html">Pesquisa de Soluções</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="perfil">Meu Perfil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-danger" href="#">Encerrar Sesssão</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="container-fluid">
+                <h3>Encerrar Incidente</h3>
+            </div>
+                
+            <div class="container-fluid">
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="ID do Incidente" disabled>
+                    </div>
+                    <div class="col">
+                        <input type="datetime-local" class="form-control input-group date" disabled>
+                    </div>
+                </div><br>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Analista Atribuído" disabled>
+                    </div>
+                </div><br>
+                <div class="form-row">
+                    <div class="col">
+                        <textarea class="form-control" rows="5" id="exampleFormControlTextarea1" placeholder="Solução Final..." disabled></textarea>
+                    </div>
+                </div><br>
+                <div class="text-center">
+                    <a type="submit" class="btn btn-success" href="suporte.html">Salvar</a>
+                    <a type="submit" class="btn btn-danger" href="suporte.html">Cancelar</a>
+                </div>                
+            </div>
+            
+            <footer class="page-footer font-small blue">
+                <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                    <a href="http://www.ufrgs.br/suinfra/"> ufrgs.br/suinfra/</a>
+                </div>
+            </footer>
+        </main>
+    </body>    
+</html>

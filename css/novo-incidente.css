@@ -1,0 +1,10 @@
+h3 {
+    text-align: center;
+}
+
+.container-fluid {
+    padding-top: 20px;
+    margin-bottom: -25px;
+    padding-left: 10%;
+    padding-right: 10%;
+}

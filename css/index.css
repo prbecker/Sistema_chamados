@@ -1,0 +1,36 @@
+html {
+    background-color: #FFF;
+}
+
+li a {
+    color: white;
+}
+
+a {
+    color: #28A745;
+}
+
+.navbar-custom {
+    background-color: #231F20;
+}
+
+.navbar img {
+  height: 30px;
+  margin: 5px;
+}
+
+.container-fluid {
+    padding: 10px;
+}
+
+h6 {
+    display: inline;
+}
+
+h7 {
+    display: inline;
+}
+
+footer {
+    margin-top: auto;
+}
